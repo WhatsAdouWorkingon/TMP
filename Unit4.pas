@@ -48,16 +48,16 @@ end;
 procedure Tpart3.FormCreate(Sender: TObject);
 var i,j:longint;
 begin
-  for i:=1 to 5 do
+  for i:=1 to 6 do
     for j:=1 to 4 do
       begin
         tm[i,j]:=timage.Create(nil);
         tm[i,j].parent:=self;
-        tm[i,j].Height:=80;
-        tm[i,j].Width:=80;
-        tm[i,j].Left:=424+118*(i-1);
-        tm[i,j].Top:=88+127*(j-1);
-        if i mod 2=0 then tm[i,j].Top:=tm[i,j].Top+60;
+        tm[i,j].Height:=268;
+        tm[i,j].Width:=352;
+        tm[i,j].Left:=358+352*(i-1);
+        tm[i,j].Top:=229+268*(j-1);
+        // if i mod 2=0 then tm[i,j].Top:=tm[i,j].Top+60;
         tm[i,j].Stretch:=true;
         tm[i,j].Visible:=true;
         tm[i,j].OnClick:=gg;
