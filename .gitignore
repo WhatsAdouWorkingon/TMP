@@ -1,0 +1,6 @@
+# Built blobs
+*.exe
+*.dcu
+
+# Excel data
+*.xls
