@@ -53,10 +53,10 @@ begin
       begin
         tm[i,j]:=timage.Create(nil);
         tm[i,j].parent:=self;
-        tm[i,j].Height:=268;
-        tm[i,j].Width:=352;
-        tm[i,j].Left:=358+352*(i-1);
-        tm[i,j].Top:=229+268*(j-1);
+        tm[i,j].Height:=115;
+        tm[i,j].Width:=177;
+        tm[i,j].Left:=181+177*(i-1);
+        tm[i,j].Top:=110+115*(j-1);
         // if i mod 2=0 then tm[i,j].Top:=tm[i,j].Top+60;
         tm[i,j].Stretch:=true;
         tm[i,j].Visible:=true;
